@@ -10,8 +10,8 @@
     <title>CivMap</title>
     <meta property="og:type" content="object" />
     <meta property="og:url" content="https://ccmap2.github.io/beta/" />
-    <meta property="og:site_name" content="CCMap" />
-    <meta property="og:title" content="CCMap" />
+    <meta property="og:site_name" content="CCMap2" />
+    <meta property="og:title" content="CCMap2" />
     <meta property="og:description" content="Interactive map of CivClassics" />
     <meta property="og:image" content="https://civclassic.com/img/logo_patreon.png" />
     <link rel="icon" type="image/png" href="https://civclassic.com/img/logo_patreon.png" />
@@ -30,15 +30,16 @@
     <script type="text/javascript">
         var config = {
             defaultCollectionUrls: [
-                { source: "https://ccmap2.github.io/data/land_claims.civmap.json", enabled_presentation: false },
                 { source: "https://ccmap2.github.io/data/political.civmap.json", enabled_presentation: true },
+                { source: "https://ccmap2.github.io/data/settlements.civmap.json", enabled_presentation: true },
                 { source: "https://ccmap2.github.io/data/rails.civmap.json", enabled_presentation: false },
+                { source: "https://ccmap2.github.io/data/land_claims.civmap.json", enabled_presentation: false },
                 { source: "https://raw.githubusercontent.com/SleepingFox8/Public-CCMap-Collection/master/Public-TravelBot-CivMap-Collection.json", enabled_presentation: false },
             ],
             initialState: {
                 mapConfig: {
                     borderApothem: 13000,
-                    tilesRoot: 'https://raw.githubusercontent.com/ccmap/tiles/master/',
+                    tilesRoot: 'https://raw.githubusercontent.com/ccmap2/tiles/master/',
                     basemaps: {
                         terrain: { name: 'Terrain', id: 'terrain', bgColor: '#000', isDefault: true },
                         biome: { name: 'Biome', id: 'biome', bgColor: '#000' },
